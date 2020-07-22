@@ -1,0 +1,24 @@
+{
+  "name": "json-blocks",
+  "author": "Kris Zyp",
+  "version": "0.6.22",
+  "description": "Efficient, compact JSON encoded data structures with extensible typing",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/DoctorEvidence/json-blocks"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha tests -u tdd"
+  },
+  "main": "./index.js",
+  "dependencies": {},
+  "optionalDependencies": {},
+  "devDependencies": {
+    "chai": "^4",
+    "mocha": "^4",
+    "webpack": "^4.16.3",
+    "webpack-cli": "^3.3.2",
+    "webpack-command": "^0.4.1"
+  }
+}
